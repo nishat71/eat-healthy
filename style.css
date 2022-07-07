@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.span-color {
+    color: orange;
+}
+
+.main-area {
+    margin: 100px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+/* 
+.half-width a {
+    margin-top: 40px;
+} */
+
+.half-width img {
+    width: 80%;
+}
+
+.about-img {
+    width: 35%;
+}
+
+.about-area {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 10%;
+}
+
+.space {
+    margin-left: 70px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 15px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.recipie-title {
+    text-align: center;
+    /* margin: 0 auto; */
+    width: 65%;
+    margin: 0 257px;
+}
+
+.recipie-item {
+    display: flex;
+    justify-content: center;
+}
+
+.recipie-half-width {
+    width: 34%;
+    margin: 3% 1%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.recipie-half-width img {
+    width: 100%;
+}
+
+.like-followers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 80px;
+
+}
+
+.like-followers-area {
+    box-shadow: 10px 10px 30px grey;
+    margin: 50px 80px;
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
